@@ -15,7 +15,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from Altomizer.alt_management import (
+from alt_management import (
     build_alt_excel,
     build_alt_inventory,
     build_alt_preview_entry,

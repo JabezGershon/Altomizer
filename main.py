@@ -29,28 +29,28 @@ from alt_management import (
     prepare_docx_preview_context,
     summarize_alt_rows,
 )
-from Altomizer.docx_tools import (
+from docx_tools import (
     extract_excel_images,
     inject_alt_texts_into_docx,
     make_grids,
     parse_alt_injection_workbook,
     safe_download_stem,
 )
-from Altomizer.color_correction import (
+from color_correction import (
     build_color_correction_output_name,
     normalize_hex_color,
     process_docx_bytes,
 )
-from Altomizer.list_correction import (
+from list_correction import (
     ListProcessor,
     build_list_correction_output_name,
 )
-from Altomizer.excel_merger import (
+from excel_merger import (
     build_excel_merge_output_name,
     merge_excel_workbooks,
     supported_excel_filename,
 )
-from Altomizer.pdf_alt_tools import (
+from pdf_alt_tools import (
     build_pdf_alt_inventory,
     build_pdf_preview_images,
     inject_pdf_alt_texts,

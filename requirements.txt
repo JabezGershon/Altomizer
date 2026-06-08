@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-multipart
+pymupdf
+python-docx
+Pillow
+requests
+openpyxl
+PySide6
